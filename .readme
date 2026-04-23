@@ -1,0 +1,63 @@
+# Library Management System
+
+## 🚀 Live Demo
+[Coming Soon]
+
+## 📋 Overview
+A full-stack Library Management System with role-based access control, JWT authentication, and complete book management features.
+
+## ✨ Features
+
+### Authentication & Authorization
+- JWT-based authentication with refresh tokens
+- Role-based access (Admin/User)
+- Secure password hashing with bcrypt
+- Protected routes and API endpoints
+
+### Book Management
+- ✅ View all books with search and filter
+- ✅ Add new books (Admin only)
+- ✅ Edit book details (Admin only)
+- ✅ Delete books (Admin only)
+- ✅ Borrow books (All authenticated users)
+- ✅ Return books (All authenticated users)
+- ✅ Real-time availability status
+
+### UI/UX
+- Responsive design with TailwindCSS
+- Real-time search and filtering
+- Toast notifications for actions
+- Loading states and error handling
+- Role-based UI rendering
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React 18 with TypeScript
+- TailwindCSS for styling
+- React Router DOM for navigation
+- Axios for API calls
+- Context API for state management
+
+### Backend
+- Node.js with Express
+- MongoDB with Mongoose ODM
+- JWT for authentication
+- bcrypt for password hashing
+- express-validator for input validation
+
+### DevOps
+- Docker & Docker Compose
+- Git for version control
+
+## 📦 Installation
+
+### Prerequisites
+- Node.js (v18 or higher)
+- MongoDB (local or Atlas)
+- npm or yarn
+
+### Clone Repository
+```bash
+git clone https://github.com/YOUR_USERNAME/library-management-system.git
+cd library-management-system
